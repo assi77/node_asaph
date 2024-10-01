@@ -5,10 +5,10 @@ const cors = require('cors');
 const app= express();
 
 const db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "asaph"
+    host: "b5zumnyu5peiztcquslt-mysql.services.clever-cloud.com",
+    user: "urbbmabfzzj8ebz3",
+    password: "password",
+    database: "urbbmabfzzj8ebz3"
 });
 app.use(cors())
 app.use(express.json());
